@@ -1,13 +1,17 @@
 nativescript-template-sumo
 ==========================
 
-### Setup
+### Create
+Create new project
+```bash
 tns create firstApp --template https://github.com/xmlking/nativescript-template-sumo
+```
 
-### Post Setup
+### Post Create 
 move `app/webpack.common.js` into the project root.(replace)
 
 Test your setup
+
 `yarn run start-ios-bundle`
 
 after **css** created, uncomment following lines in `webpack.common.js`
