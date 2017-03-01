@@ -1,0 +1,8 @@
+.idea/
+
+**/*.js
+**/*.js.map
+**/*.css
+**/*.css.map
+
+!/webpack.common.js
